@@ -28,7 +28,7 @@ public class HomeController {
 	session.setAttribute("js", ctx+"/resources/js/");
 	session.setAttribute("img", ctx+"/resources/img/");
 	session.setAttribute("time", new SimpleDateFormat("yyyy 년 MM 월 dd 일 hh:mm:ss").format(new Date()));
-	System.out.println("111");
+	
 	return "home/main";
 	}
 }
